@@ -1,0 +1,130 @@
+* { 
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+body{
+    background-image: url("../Imagenes/fondoHP.jpg");
+    background-repeat: no-repeat;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    border-radius: 10%;
+    color: #FFFFFF;
+    margin-top: 90px;
+    background: none;
+    text-transform: lowercase;
+}
+
+::placeholder {
+    color: #FFFFFF;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.mensaje {
+    background: #FFFFFF;
+    background-image: url("../Imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    text-transform: lowercase;
+    opacity: 80%;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+    margin-left: 40px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 480px;
+    width: 320px;
+    position: absolute;
+}
+
+.informacion {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.mensajes-informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 950px;
+    top: 410px;
+    
+}
+
+.ningunMsj {
+    color: #343A40;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+.mostrarMsj {
+    color: #495057;
+    font-size: 18px;
+    text-align: center; 
+}
